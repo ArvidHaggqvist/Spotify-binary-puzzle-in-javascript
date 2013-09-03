@@ -45,10 +45,10 @@
 		},
 
 		init: function(decimalNumber) {
-			return console.log(this.binaryToDecimal(this.decimalToBinary(decimalNumber)));
+			return this.binaryToDecimal(this.decimalToBinary(decimalNumber));
 		}
 	};
 
-	inverseBinary.init(47);
+	console.log(inverseBinary.init(47));
 
 })();
